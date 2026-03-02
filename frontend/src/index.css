@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-base: #09090b;
+  /* deep carbon */
+  --color-surface-raw: #18181b;
+  --color-accent-cyan: #00f0ff;
+  --color-accent-yellow: #facc15;
+  --color-text-primary: #f4f4f5;
+  --color-text-dim: #a1a1aa;
+
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg-base);
+    color: var(--color-text-primary);
+    font-family: var(--font-mono);
+    /* Default to mono for that raw data feel */
+    -webkit-font-smoothing: antialiased;
+    /* Industrial Blueprint Grid Background */
+    background-image:
+      linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    background-attachment: fixed;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+
+  ::selection {
+    background-color: var(--color-accent-cyan);
+    color: #000;
+  }
+}
+
+@layer components {
+
+  /* Brutalist architectural panel */
+  .panel-raw {
+    @apply bg-zinc-900/80 border border-zinc-800 p-6 relative overflow-hidden;
+  }
+
+  /* Corner accents for the industrial look */
+  .panel-raw::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid var(--color-accent-cyan);
+    border-left: 2px solid var(--color-accent-cyan);
+  }
+
+  /* Structural Buttons */
+  .btn-structured {
+    @apply px-5 py-2 font-display font-medium text-sm tracking-widest uppercase border transition-all duration-300;
+  }
+
+  .btn-cyan {
+    @apply border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black;
+  }
+
+  .btn-yellow {
+    @apply border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black;
+  }
+
+  .data-label {
+    @apply text-[10px] tracking-widest uppercase text-zinc-500 mb-1 block;
+  }
+}

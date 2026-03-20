@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Walisson Felipe | Analytics Portfolio</title>
+  <meta name="description" content="Portfólio de Walisson Felipe — Analista de BI Sênior especializado em Power BI, Microsoft Fabric, SQL e Python. Dashboards estratégicos e soluções de dados." />
+  <meta property="og:title" content="Walisson Felipe | Analytics & BI Portfolio" />
+  <meta property="og:description" content="Analista de BI Sênior com foco em dashboards estratégicos, pipelines de dados e modernização analítica com Microsoft Fabric." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="src/img/my-photo.png" />
+  <link rel="icon" type="image/png" href="src/img/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+<body>
+
+  <!-- Background Blobs -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <!-- ── NAVBAR ── -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <a href="#about" class="nav-link active" data-pt="Sobre" data-en="About">Sobre</a>
+    <div class="nav-dot"></div>
+    <a href="#timeline" class="nav-link" data-pt="Trajetória" data-en="Experience">Trajetória</a>
+    <div class="nav-dot"></div>
+    <a href="#projects" class="nav-link" data-pt="Projetos" data-en="Projects">Projetos</a>
+    <div class="nav-dot"></div>
+    <a href="#education" class="nav-link" data-pt="Formação" data-en="Education">Formação</a>
+    <div class="nav-dot"></div>
+    <a href="#contact" class="nav-link" data-pt="Contato" data-en="Contact">Contato</a>
+    <div class="nav-dot"></div>
+    <button class="lang-toggle" id="langToggle" aria-label="Switch language">EN</button>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="about" class="hero-section" aria-label="Sobre mim">
+
+    <div class="photo-container reveal">
+      <div class="photo-accent-ring"></div>
+      <div class="photo-frame">
+        <img src="src/img/my-photo.png" alt="Walisson Felipe" />
+      </div>
+      <div class="photo-badge">Analista CoE Sênior</div>
+      <div class="experience-badge">
+        <div>
+          <div class="exp-number">3+</div>
+          <div class="exp-label">anos em<br>BI & Analytics</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-tag reveal reveal-delay-1" data-pt="Disponível para projetos" data-en="Available for projects">
+        <span class="pulse-dot"></span>
+        Disponível para projetos
+      </div>
+      <h1 class="hero-name reveal reveal-delay-2">
+        Walisson Felipe<br>
+        <span class="accent">Analytics</span> & BI
+      </h1>
+      <p class="hero-role reveal reveal-delay-2" data-pt="Analista de BI Sênior · Unidas Frotas · Centro de Excelência" data-en="Senior BI Analyst · Unidas Frotas · Center of Excellence">Analista de BI Sênior · Unidas Frotas · Centro de Excelência</p>
+      <p class="hero-desc reveal reveal-delay-3" data-pt="Analista de Inteligência Empresarial Sênior com foco no ciclo completo de analytics — da ingestão ao insight. Atuo no Centro de Excelência desenvolvendo dashboards estratégicos em Power BI, pipelines de dados com SQL e Python, e liderando a modernização da plataforma analítica com Microsoft Fabric." data-en="Senior Business Intelligence Analyst focused on the full analytics cycle — from ingestion to insight. Working at the Center of Excellence building strategic Power BI dashboards, data pipelines with SQL and Python, and leading the analytics platform modernization with Microsoft Fabric.">
+        Analista de Inteligência Empresarial Sênior com foco no ciclo completo de analytics — da ingestão ao insight. Atuo no Centro de Excelência desenvolvendo dashboards estratégicos em Power BI, pipelines de dados com SQL e Python, e liderando a modernização da plataforma analítica com Microsoft Fabric.
+      </p>
+      <div class="skills-chips reveal reveal-delay-3">
+        <span class="chip">Power BI</span>
+        <span class="chip">Microsoft Fabric</span>
+        <span class="chip">Python</span>
+        <span class="chip">SQL</span>
+        <span class="chip">DAX</span>
+        <span class="chip">BigQuery</span>
+        <span class="chip">API REST</span>
+        <span class="chip">Git</span>
+      </div>
+      <div class="hero-cta reveal reveal-delay-4">
+        <a href="#projects" class="btn-primary" aria-label="Ver projetos">
+          <svg width="16" height="16" fill="none" viewBox="0 0 16 16"><path d="M2 8h12M9 3l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span data-pt="Ver Projetos" data-en="View Projects">Ver Projetos</span>
+        </a>
+        <a href="#contact" class="btn-ghost" aria-label="Entrar em contato">
+          <span data-pt="Entrar em Contato" data-en="Get in Touch">Entrar em Contato</span>
+        </a>
+        <a href="src/dados_linkedin/cv-walisson-felipe.pdf" class="btn-ghost btn-cv" download aria-label="Download CV">
+          <svg width="16" height="16" fill="none" viewBox="0 0 16 16"><path d="M8 2v9M4 8l4 4 4-4M2 13h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span data-pt="Baixar CV" data-en="Download CV">Baixar CV</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── STATS BAR ── -->
+  <div class="stats-bar" role="region" aria-label="Estatísticas">
+    <div class="stats-inner">
+      <div class="stat-item reveal">
+        <div class="stat-number">3+</div>
+        <div class="stat-label" data-pt="Anos em BI & Analytics" data-en="Years in BI & Analytics">Anos em BI & Analytics</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-1">
+        <div class="stat-number">6</div>
+        <div class="stat-label" data-pt="Empresas na trajetória" data-en="Companies in career">Empresas na trajetória</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-2">
+        <div class="stat-number">5+</div>
+        <div class="stat-label" data-pt="Certificações técnicas" data-en="Technical certifications">Certificações técnicas</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-3">
+        <div class="stat-number">12+</div>
+        <div class="stat-label" data-pt="Anos de experiência profissional" data-en="Years of professional experience">Anos de experiência profissional</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── ABOUT ── -->
+  <section class="section about-section" aria-label="Sobre mim">
+    <div class="section-header reveal">
+      <p class="section-label" data-pt="Quem sou" data-en="Who I am">Quem sou</p>
+      <h2 class="section-title" data-pt="Um pouco sobre mim" data-en="A little about me">Um pouco sobre mim</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="about-content reveal">
+      <p data-pt="Maranhense, apaixonado por transformar dados em decisões. Minha trajetória começou na logística e monitoramento de frotas, onde descobri o poder dos dados para otimizar operações. Hoje, atuo no Centro de Excelência da Unidas Frotas liderando projetos de BI que impactam diretamente a estratégia do negócio." data-en="From Maranhão, Brazil — passionate about turning data into decisions. My career started in logistics and fleet monitoring, where I discovered the power of data to optimize operations. Today, I work at Unidas Frotas' Center of Excellence leading BI projects that directly impact business strategy.">Maranhense, apaixonado por transformar dados em decisões. Minha trajetória começou na logística e monitoramento de frotas, onde descobri o poder dos dados para otimizar operações. Hoje, atuo no Centro de Excelência da Unidas Frotas liderando projetos de BI que impactam diretamente a estratégia do negócio.</p>
+      <p data-pt="Fora do trabalho, estou sempre estudando novas tecnologias de dados, contribuindo com a comunidade de Power BI e buscando formas de unir análise, design e storytelling para criar soluções que realmente façam diferença." data-en="Outside of work, I'm always studying new data technologies, contributing to the Power BI community and finding ways to combine analytics, design and storytelling to create solutions that truly make a difference.">Fora do trabalho, estou sempre estudando novas tecnologias de dados, contribuindo com a comunidade de Power BI e buscando formas de unir análise, design e storytelling para criar soluções que realmente façam diferença.</p>
+    </div>
+  </section>
+
+  <!-- ── TIMELINE ── -->
+  <section id="timeline" class="section" aria-label="Trajetória profissional">
+    <div class="section-header reveal">
+      <p class="section-label" data-pt="Trajetória" data-en="Experience">Trajetória</p>
+      <h2 class="section-title" data-pt="Linha do Tempo Profissional" data-en="Professional Timeline">Linha do Tempo Profissional</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="timeline-left">
+          <div class="tl-company">Unidas Frotas</div>
+          <div class="tl-period">Nov/2022 – Atual · 3a 5m</div>
+        </div>
+        <div class="timeline-center"><div class="timeline-dot"></div></div>
+        <div class="timeline-right">
+          <div class="tl-subroles">
+            <div class="tl-subrole">
+              <div class="tl-subrole-dot"></div>
+              <div class="tl-subrole-content">
+                <div class="tl-role">Analista do Centro de Excelência Sênior</div>
+                <div class="tl-subperiod">Out/2024 – Atual · Remota</div>
+                <div class="tl-desc">Liderança de iniciativas de BI no CoE. Dashboards estratégicos com DAX avançado e modelagem dimensional. Modernização da plataforma com Microsoft Fabric, Lakehouse e Dataflows Gen2. Governança e documentação de dados.</div>
+                <div class="tl-tags">
+                  <span class="tl-tag">Power BI</span>
+                  <span class="tl-tag">Microsoft Fabric</span>
+                  <span class="tl-tag">DAX</span>
+                  <span class="tl-tag">SQL</span>
+                  <span class="tl-tag">Python</span>
+                </div>
+              </div>
+            </div>
+            <div class="tl-subrole">
+              <div class="tl-subrole-dot"></div>
+              <div class="tl-subrole-content">
+                <div class="tl-role">Analista de Operações Florestais PL</div>
+                <div class="tl-subperiod">Jul/2023 – Out/2024 · 1a 4m · Presencial</div>
+                <div class="tl-desc">Automação de processos e implantação de indicadores estratégicos para novos contratos florestais. Dashboards operacionais de combustível, produtividade, disponibilidade mecânica e telemetria. Mentoria de jovens aprendizes.</div>
+                <div class="tl-tags">
+                  <span class="tl-tag">Power BI</span>
+                  <span class="tl-tag">SQL</span>
+                  <span class="tl-tag">Modelagem de Dados</span>
+                </div>
+              </div>
+            </div>
+            <div class="tl-subrole">
+              <div class="tl-subrole-dot"></div>
+              <div class="tl-subrole-content">
+                <div class="tl-role">Analista de Operações Florestais JR</div>
+                <div class="tl-subperiod">Nov/2022 – Jul/2023 · 9m · Presencial</div>
+                <div class="tl-desc">Definição de modelagem e preparação de dados para análises operacionais e relatórios estratégicos. Construção e automação de relatórios em Power BI e Excel.</div>
+                <div class="tl-tags">
+                  <span class="tl-tag">Power BI</span>
+                  <span class="tl-tag">Excel</span>
+                  <span class="tl-tag">Análise de Negócios</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-left">
+          <div class="tl-company">Soares Consulting</div>
+          <div class="tl-period">Set/2022 – Nov/2022</div>
+        </div>
+        <div class="timeline-center"><div class="timeline-dot"></div></div>
+        <div class="timeline-right">
+          <div class="tl-role">Analista de BI Jr</div>
+          <div class="tl-desc">Análise e levantamento de requisitos. Automação de relatórios e dashboards no Power BI. Definição de modelagem e modelos de dados a serem tratados e transformados.</div>
+          <div class="tl-tags">
+            <span class="tl-tag">Power BI</span>
+            <span class="tl-tag">DAX</span>
+            <span class="tl-tag">Modelagem de Dados</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-left">
+          <div class="tl-company">LOTS Group Latin America</div>
+          <div class="tl-period">Mar/2022 – Set/2022</div>
+        </div>
+        <div class="timeline-center"><div class="timeline-dot"></div></div>
+        <div class="timeline-right">
+          <div class="tl-role">Analista de Operações Florestais PL</div>
+          <div class="tl-desc">Criação e automação de relatórios operacionais, financeiros e de SSMA em Power BI e Excel. Controle de combustível, ociosidade, disponibilidade mecânica e desempenho por entrega.</div>
+          <div class="tl-tags">
+            <span class="tl-tag">Power BI</span>
+            <span class="tl-tag">Excel</span>
+            <span class="tl-tag">Logística</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-left">
+          <div class="tl-company">Grupo S&D</div>
+          <div class="tl-period">Ago/2021 – Mar/2022</div>
+        </div>
+        <div class="timeline-center"><div class="timeline-dot"></div></div>
+        <div class="timeline-right">
+          <div class="tl-role">Controlador de Logística</div>
+          <div class="tl-desc">Controle e acompanhamento de carregamento e transporte. Exploração de intra-logística para melhoria de desempenho operacional.</div>
+          <div class="tl-tags">
+            <span class="tl-tag">Logística</span>
+            <span class="tl-tag">Excel</span>
+            <span class="tl-tag">CTE/MDFe</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-left">
+          <div class="tl-company">Grupo Apisul</div>
+          <div class="tl-period">Jun/2017 – Out/2020</div>
+        </div>
+        <div class="timeline-center"><div class="timeline-dot"></div></div>
+        <div class="timeline-right">
+          <div class="tl-role">Operador de Monitoramento II → III</div>
+          <div class="tl-desc">Análise de dados em Excel e Power BI. Automação de relatórios, monitoramento de frota e gestão de telemetria. Primeiros passos na área de dados e analytics.</div>
+          <div class="tl-tags">
+            <span class="tl-tag">Excel</span>
+            <span class="tl-tag">Power BI</span>
+            <span class="tl-tag">Telemetria</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section id="projects" class="section" aria-label="Projetos">
+    <div class="section-header reveal">
+      <p class="section-label" data-pt="Portfólio" data-en="Portfolio">Portfólio</p>
+      <h2 class="section-title" data-pt="Projetos em Destaque" data-en="Featured Projects">Projetos em Destaque</h2>
+      <div class="divider"></div>
+      <p class="section-sub" data-pt="Soluções reais que geraram impacto mensurável" data-en="Real solutions that delivered measurable impact">Soluções reais que geraram impacto mensurável</p>
+    </div>
+
+    <div class="projects-list">
+
+      <!-- PROJECT 1 -->
+      <div class="project-card reveal" role="article">
+        <div class="project-thumb project-thumb--embed" aria-label="Dashboard Operacional interativo">
+          <iframe title="Dashboard Operacional" src="https://app.powerbi.com/view?r=eyJrIjoiZmQzM2JmNWYtNjYwNi00NTg2LWFkNzMtMzZhZDAxZjFjNGNmIiwidCI6ImI1MjViZTVhLTkxM2MtNGRhMC1iNDI3LTNiZTdlZjc0ZjY1YSJ9&actionBarEnabled=false" frameborder="0" allowFullScreen="true" loading="lazy"></iframe>
+        </div>
+        <div>
+          <div class="project-num">01 / FATURAMENTO & TRANSPORTE</div>
+          <h3 class="project-title" data-pt="Dashboard de Faturamento e Transporte" data-en="Revenue & Transport Dashboard">Dashboard de Faturamento e Transporte</h3>
+          <p class="project-desc" data-pt="Painel de acompanhamento de receita bruta, peso, volume e ciclo de transporte por região (MA/PA). Inclui análise diária de faturamento vs meta, insights automáticos de tendência e filtros dinâmicos por período." data-en="Revenue tracking dashboard covering gross revenue, weight, volume and transport cycle by region (MA/PA). Includes daily billing vs target analysis, automated trend insights and dynamic period filters.">Painel de acompanhamento de receita bruta, peso, volume e ciclo de transporte por região (MA/PA). Inclui análise diária de faturamento vs meta, insights automáticos de tendência e filtros dinâmicos por período.</p>
+          <div class="project-problem">
+            <div class="project-problem-label" data-pt="Problema Resolvido" data-en="Problem Solved">Problema Resolvido</div>
+            <div class="project-problem-text" data-pt="Centralização de dados de faturamento e transporte antes dispersos em planilhas, permitindo visibilidade em tempo real da receita por região e identificação rápida de desvios em relação à meta." data-en="Centralized billing and transport data previously scattered across spreadsheets, enabling real-time revenue visibility by region and quick identification of target deviations.">Centralização de dados de faturamento e transporte antes dispersos em planilhas, permitindo visibilidade em tempo real da receita por região e identificação rápida de desvios em relação à meta.</div>
+          </div>
+          <div class="project-tools">
+            <span class="tool-badge">Power BI</span>
+            <span class="tool-badge">DAX</span>
+            <span class="tool-badge">SQL Server</span>
+            <span class="tool-badge">Python</span>
+          </div>
+          <a href="https://app.powerbi.com/view?r=eyJrIjoiZmQzM2JmNWYtNjYwNi00NTg2LWFkNzMtMzZhZDAxZjFjNGNmIiwidCI6ImI1MjViZTVhLTkxM2MtNGRhMC1iNDI3LTNiZTdlZjc0ZjY1YSJ9&actionBarEnabled=false" class="project-link" aria-label="Ver Dashboard Operacional" target="_blank" rel="noopener">
+            <span data-pt="Ver projeto" data-en="View project">Ver projeto</span>
+            <svg width="14" height="14" fill="none" viewBox="0 0 14 14"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- PROJECT 2 (reversed) -->
+      <div class="project-card reverse reveal" role="article">
+        <div>
+          <div class="project-num">02 / TRANSPORTE & CARREGAMENTO</div>
+          <h3 class="project-title">Follow Transport & Loading</h3>
+          <p class="project-desc" data-pt="Painel de controle de transporte e carregamento florestal com KPIs de viagens, PBTC, peso transportado, volume, ciclo real e RPV. Inclui análise de aderência de viagens vs meta, veículos carregados vs checklist, peso vs meta e tempo médio de carregamento por máquina." data-en="Forestry transport and loading control dashboard with trip KPIs, PBTC, transported weight, volume, actual cycle and RPV. Includes trip adherence vs target, loaded vehicles vs checklist, weight vs target and average loading time per machine.">Painel de controle de transporte e carregamento florestal com KPIs de viagens, PBTC, peso transportado, volume, ciclo real e RPV. Inclui análise de aderência de viagens vs meta, veículos carregados vs checklist, peso vs meta e tempo médio de carregamento por máquina.</p>
+          <div class="project-problem">
+            <div class="project-problem-label" data-pt="Problema Resolvido" data-en="Problem Solved">Problema Resolvido</div>
+            <div class="project-problem-text" data-pt="Visibilidade em tempo real da operação de transporte florestal, permitindo identificar gargalos no ciclo de carregamento, monitorar aderência às metas e otimizar a produtividade por máquina." data-en="Real-time visibility into forestry transport operations, enabling identification of loading cycle bottlenecks, target adherence monitoring and productivity optimization per machine.">Visibilidade em tempo real da operação de transporte florestal, permitindo identificar gargalos no ciclo de carregamento, monitorar aderência às metas e otimizar a produtividade por máquina.</div>
+          </div>
+          <div class="project-tools">
+            <span class="tool-badge">Power BI</span>
+            <span class="tool-badge">DAX</span>
+            <span class="tool-badge">SQL</span>
+            <span class="tool-badge">Modelagem Dimensional</span>
+          </div>
+          <a href="https://app.powerbi.com/view?r=eyJrIjoiMzFhYzExYjctOGJmOC00ZmY1LWI4ZjktYzEwMmJkMTVhNGI4IiwidCI6ImI1MjViZTVhLTkxM2MtNGRhMC1iNDI3LTNiZTdlZjc0ZjY1YSJ9&actionBarEnabled=false" class="project-link" aria-label="Ver projeto Follow Transport And Loading" target="_blank" rel="noopener">
+            <span data-pt="Ver projeto" data-en="View project">Ver projeto</span>
+            <svg width="14" height="14" fill="none" viewBox="0 0 14 14"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+        <div class="project-thumb project-thumb--embed" aria-label="Follow Transport And Loading interativo">
+          <iframe title="Follow Transport And Loading" src="https://app.powerbi.com/view?r=eyJrIjoiMzFhYzExYjctOGJmOC00ZmY1LWI4ZjktYzEwMmJkMTVhNGI4IiwidCI6ImI1MjViZTVhLTkxM2MtNGRhMC1iNDI3LTNiZTdlZjc0ZjY1YSJ9&actionBarEnabled=false" frameborder="0" allowFullScreen="true" loading="lazy"></iframe>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- ── EDUCATION ── -->
+  <section id="education" class="section" aria-label="Formação e certificações">
+    <div class="section-header reveal">
+      <p class="section-label" data-pt="Formação" data-en="Education">Formação</p>
+      <h2 class="section-title" data-pt="Educação & Certificações" data-en="Education & Certifications">Educação & Certificações</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="edu-grid">
+      <div class="edu-card reveal">
+        <div class="edu-icon">
+          <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><path d="M10 2L2 6l8 4 8-4-8-4zM2 14l8 4 8-4M2 10l8 4 8-4" stroke="#7B2CBF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="edu-type">Em Andamento</div>
+        <div class="edu-title">Analista de Dados e Estatística</div>
+        <div class="edu-school">EBA — Estatística do Básico ao Avançado</div>
+        <div class="edu-year">2025 – 2026</div>
+      </div>
+
+      <div class="edu-card reveal reveal-delay-1">
+        <div class="edu-icon">
+          <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><path d="M10 2L2 6l8 4 8-4-8-4zM2 14l8 4 8-4M2 10l8 4 8-4" stroke="#7B2CBF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="edu-type">Pós-Graduação</div>
+        <div class="edu-title">Analytics & Business Intelligence</div>
+        <div class="edu-school">Pontifícia Universidade Católica de Minas Gerais</div>
+        <div class="edu-year">2022 – 2023</div>
+      </div>
+
+      <div class="edu-card reveal reveal-delay-2">
+        <div class="edu-icon">
+          <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><path d="M10 2L2 6l8 4 8-4-8-4zM2 14l8 4 8-4M2 10l8 4 8-4" stroke="#7B2CBF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="edu-type">Graduação</div>
+        <div class="edu-title">Gestão da Cadeia de Suprimentos e Logística</div>
+        <div class="edu-school">Universidade Metodista de São Paulo</div>
+        <div class="edu-year">2014 – 2016</div>
+      </div>
+
+      <div class="edu-card reveal reveal-delay-3">
+        <div class="edu-icon">
+          <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><path d="M10 2L2 6l8 4 8-4-8-4zM2 14l8 4 8-4M2 10l8 4 8-4" stroke="#7B2CBF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="edu-type">Técnico</div>
+        <div class="edu-title">Eletrônica</div>
+        <div class="edu-school">IFMA — Instituto Federal do Maranhão</div>
+        <div class="edu-year">2010 – 2012</div>
+      </div>
+    </div>
+
+    <div class="certs-grid">
+      <div class="cert-badge reveal">
+        <div class="cert-icon">
+          <svg width="18" height="18" fill="none" viewBox="0 0 18 18"><rect x="2" y="2" width="14" height="14" rx="3" stroke="#7B2CBF" stroke-width="1.5"/><path d="M6 9l2 2 4-4" stroke="#7B2CBF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div>
+          <div class="cert-name">Power BI: Avançado</div>
+          <div class="cert-issuer">Microsoft</div>
+        </div>
+      </div>
+      <div class="cert-badge reveal reveal-delay-1">
+        <div class="cert-icon">
+          <svg width="18" height="18" fill="none" viewBox="0 0 18 18"><rect x="2" y="2" width="14" height="14" rx="3" stroke="#7B2CBF" stroke-width="1.5"/><path d="M6 9l2 2 4-4" stroke="#7B2CBF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div>
+          <div class="cert-name">Formação Power BI</div>
+          <div class="cert-issuer">Microsoft</div>
+        </div>
+      </div>
+      <div class="cert-badge reveal reveal-delay-2">
+        <div class="cert-icon">
+          <svg width="18" height="18" fill="none" viewBox="0 0 18 18"><rect x="2" y="2" width="14" height="14" rx="3" stroke="#7B2CBF" stroke-width="1.5"/><path d="M6 9l2 2 4-4" stroke="#7B2CBF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div>
+          <div class="cert-name">UX Research: Análise e Visualização de Dados</div>
+          <div class="cert-issuer">Formação Online</div>
+        </div>
+      </div>
+      <div class="cert-badge reveal reveal-delay-3">
+        <div class="cert-icon">
+          <svg width="18" height="18" fill="none" viewBox="0 0 18 18"><rect x="2" y="2" width="14" height="14" rx="3" stroke="#7B2CBF" stroke-width="1.5"/><path d="M6 9l2 2 4-4" stroke="#7B2CBF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div>
+          <div class="cert-name">Curso Completo de Figma</div>
+          <div class="cert-issuer">Figma</div>
+        </div>
+      </div>
+      <div class="cert-badge reveal reveal-delay-4">
+        <div class="cert-icon">
+          <svg width="18" height="18" fill="none" viewBox="0 0 18 18"><rect x="2" y="2" width="14" height="14" rx="3" stroke="#7B2CBF" stroke-width="1.5"/><path d="M6 9l2 2 4-4" stroke="#7B2CBF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div>
+          <div class="cert-name">Produtividade Inteligente</div>
+          <div class="cert-issuer">Formação Online</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills" class="section" aria-label="Habilidades">
+    <div class="section-header reveal">
+      <p class="section-label" data-pt="Habilidades" data-en="Skills">Habilidades</p>
+      <h2 class="section-title" data-pt="Nível de Proficiência" data-en="Proficiency Level">Nível de Proficiência</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skills-column reveal">
+        <h3 class="skills-column-title" data-pt="Soft Skills" data-en="Soft Skills">Soft Skills</h3>
+        <div class="skill-bar-item">
+          <div class="skill-bar-header"><span data-pt="Pensamento Analítico" data-en="Analytical Thinking">Pensamento Analítico</span><span class="skill-pct">95%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-pct="95"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-header"><span data-pt="Trabalho em Equipe" data-en="Teamwork">Trabalho em Equipe</span><span class="skill-pct">92%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-pct="92"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-header"><span data-pt="Resolução de Problemas" data-en="Problem Solving">Resolução de Problemas</span><span class="skill-pct">90%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-pct="90"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-header"><span data-pt="Comunicação e Storytelling" data-en="Communication & Storytelling">Comunicação e Storytelling</span><span class="skill-pct">88%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-pct="88"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-header"><span data-pt="Liderança Técnica" data-en="Technical Leadership">Liderança Técnica</span><span class="skill-pct">85%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-pct="85"></div></div>
+        </div>
+      </div>
+
+      <div class="skills-column reveal reveal-delay-1">
+        <h3 class="skills-column-title" data-pt="Hard Skills" data-en="Hard Skills">Hard Skills</h3>
+        <div class="skill-bar-item">
+          <div class="skill-bar-header"><span>Excel</span><span class="skill-pct">95%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-pct="95"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-header"><span>Power BI</span><span class="skill-pct">92%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-pct="92"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-header"><span>SQL</span><span class="skill-pct">90%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-pct="90"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-header"><span>Python</span><span class="skill-pct">70%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-pct="70"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-header"><span>GitHub</span><span class="skill-pct">70%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-pct="70"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact" class="contact-section" aria-label="Contato">
+    <p class="section-label reveal" data-pt="Contato" data-en="Contact">Contato</p>
+    <h2 class="section-title reveal reveal-delay-1" data-pt="Vamos Conversar?" data-en="Let's Talk?">Vamos Conversar?</h2>
+    <p class="section-sub reveal reveal-delay-2" style="margin-top:16px;" data-pt="Aberto a novas oportunidades, projetos freelance e trocas sobre dados." data-en="Open to new opportunities, freelance projects and data conversations.">Aberto a novas oportunidades, projetos freelance e trocas sobre dados.</p>
+
+    <div class="contact-grid">
+      <a href="https://wa.me/5599984035823" class="contact-card reveal" aria-label="WhatsApp" target="_blank" rel="noopener">
+        <div class="contact-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="#7B2CBF"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </div>
+        <span>WhatsApp</span>
+      </a>
+
+      <a href="mailto:felipesilva@fluxbi.com.br" class="contact-card reveal reveal-delay-1" aria-label="Email" target="_blank" rel="noopener">
+        <div class="contact-icon">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="#7B2CBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <span>E-mail</span>
+      </a>
+
+      <a href="https://linkedin.com/in/wfcs93" class="contact-card reveal reveal-delay-2" aria-label="LinkedIn" target="_blank" rel="noopener">
+        <div class="contact-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="#7B2CBF"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </div>
+        <span>LinkedIn</span>
+      </a>
+
+      <a href="https://github.com/wfcs" class="contact-card reveal reveal-delay-3" aria-label="GitHub" target="_blank" rel="noopener">
+        <div class="contact-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="#7B2CBF"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        </div>
+        <span>GitHub</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer role="contentinfo">
+    <span data-pt="Feito com foco em dados e design" data-en="Built with data and design focus">Feito com foco em dados e design</span> · <strong style="color: var(--accent);">Walisson Felipe</strong> · 2026
+  </footer>
+
+  <script>
+    // ── SCROLL REVEAL ──
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // ── NAVBAR ACTIVE STATE ──
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-link');
+    const navObserver = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          navLinks.forEach(l => l.classList.remove('active'));
+          const active = document.querySelector(`.nav-link[href="#${e.target.id}"]`);
+          if (active) active.classList.add('active');
+        }
+      });
+    }, { threshold: 0.4 });
+    sections.forEach(s => navObserver.observe(s));
+
+    // ── COUNTER ANIMATION ──
+    const counters = document.querySelectorAll('.stat-number');
+    const counterObserver = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting && !e.target.dataset.counted) {
+          e.target.dataset.counted = 'true';
+          const text = e.target.textContent.trim();
+          const suffix = text.replace(/[0-9]/g, '');
+          const target = parseInt(text);
+          let current = 0;
+          const step = Math.max(1, Math.floor(target / 40));
+          const timer = setInterval(() => {
+            current += step;
+            if (current >= target) { current = target; clearInterval(timer); }
+            e.target.textContent = current + suffix;
+          }, 30);
+        }
+      });
+    }, { threshold: 0.5 });
+    counters.forEach(c => counterObserver.observe(c));
+
+    // ── SKILL BARS ANIMATION ──
+    const skillBars = document.querySelectorAll('.skill-fill');
+    const skillObserver = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting && !e.target.dataset.animated) {
+          e.target.dataset.animated = 'true';
+          e.target.style.width = e.target.dataset.pct + '%';
+        }
+      });
+    }, { threshold: 0.3 });
+    skillBars.forEach(bar => skillObserver.observe(bar));
+
+    // ── LANGUAGE TOGGLE ──
+    const langBtn = document.getElementById('langToggle');
+    let currentLang = 'pt';
+    langBtn.addEventListener('click', () => {
+      currentLang = currentLang === 'pt' ? 'en' : 'pt';
+      langBtn.textContent = currentLang === 'pt' ? 'EN' : 'PT';
+      document.documentElement.lang = currentLang === 'pt' ? 'pt-BR' : 'en';
+      document.querySelectorAll('[data-pt][data-en]').forEach(el => {
+        const dot = el.querySelector('.pulse-dot');
+        if (dot) {
+          el.textContent = '';
+          el.appendChild(dot);
+          el.append(' ' + el.dataset[currentLang]);
+        } else {
+          el.textContent = el.dataset[currentLang];
+        }
+      });
+    });
+
+    // ── REDUCED MOTION ──
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+      document.querySelectorAll('.blob').forEach(el => el.style.animation = 'none');
+    }
+  </script>
+</body>
+</html>
